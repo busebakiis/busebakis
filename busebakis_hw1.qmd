@@ -464,7 +464,7 @@ There is not a huge change in many communes such as Differdange, Esch-sur-Alzett
 head(country_level_data)
 commune_level_data$year <- as.factor(commune_level_data$year)
 last <-  commune_level_data[commune_level_data$year %in% c("2019","2020"),]
-last
+head(last)
 which(is.na(last))
 
 library(tidyr)
