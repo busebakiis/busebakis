@@ -26,7 +26,7 @@ We are going to download data about house prices in Luxembourg. Luxembourg is a 
 ::: {.content-visible when-format="pdf"}
 ```{r, echo = F, out.width="300px"}
 #| fig-cap: "Luxembourg is about as big as the US State of Rhode Island."
-knitr::include_graphics("/Users/busebakis/hw1/images/lux_rhode_island.png")
+knitr::include_graphics("/Users/busebakis/buseR/images/lux_rhode_island.png")
 ```
 :::
 
@@ -36,7 +36,7 @@ The plot below shows the value of the House Price Index over time for Luxembourg
 
 ```{r, echo = F}
 #https://ec.europa.eu/eurostat/databrowser/bookmark/21530d9a-c423-4ab7-998a-7170326136cd?lang=en
-housing_lu_eu <- read.csv("/Users/busebakis/hw1/datasets/prc_hpi_a__custom_4705395_page_linear.csv")
+housing_lu_eu <- read.csv("/Users/busebakis/buseR/datasets/prc_hpi_a__custom_4705395_page_linear.csv")
 
 withr::with_package("ggplot2",
   {
@@ -89,7 +89,7 @@ Getting data from Excel into a tidy data frame can be very tricky. This is becau
 ::: {.content-hidden when-format="pdf"}
 <figure>
 
-<img src="images/obs_hab_xlsx_overview.png" alt="An Excel file meant for human eyes."/></img>
+![](images/obs_hab_xlsx_overview.png)</img>
 
 <figcaption>An Excel file meant for human eyes.</figcaption>
 
@@ -99,7 +99,7 @@ Getting data from Excel into a tidy data frame can be very tricky. This is becau
 ::: {.content-visible when-format="pdf"}
 ```{r, echo = F}
 #| fig-cap: "An Excel file meant for human eyes."
-knitr::include_graphics("images/obs_hab_xlsx_overview.png")
+knitr::include_graphics("/Users/busebakis/buseR/images/obs_hab_xlsx_overview")
 ```
 :::
 
